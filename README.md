@@ -8,9 +8,15 @@ First read document on [Getting started
 ](https://www.amebaiot.com/en/amebad-bw16-arduino-getting-started/)
 
 ## Programming
-The pins LOG_UART_TX (PA7) and LOG_UART_RX (PA8) are used for program upload. However, the onboard USB-to-UART module is connected to LP_UART_TX (PB1) and LP_UART_RX (PB2) and thus cannot be used directly for program upload. You can choose to either use an external USB-to-UART module connected to PA7 and PA8, or you could short these pins together to use the on-board USB for program upload:
-PA8–––PB2
-PA7–––PB1
+### Using external programmer
+The pins LOG_UART_TX (PA7) and LOG_UART_RX (PA8) are used for program upload. However, the onboard USB-to-UART module is connected to LP_UART_TX (PB1) and LP_UART_RX (PB2) and thus cannot be used directly for program upload. You can choose to either use an external USB-to-UART module connected to PA7 and PA8, 
+ 
+### Programming through USB
+Short these pins together to use the on-board USB for program upload:
+
+* PA8–––PB2
+* PA7–––PB1
+
 After connecting accordingly, the USB driver for BW16/RTL8720DN will be automatically installed. You can check the COM port number in Device Manager of your computer:
 
 

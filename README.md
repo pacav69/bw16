@@ -1,5 +1,7 @@
 [![cavtronics logo](https://cldup.com/BhJv2ZU0rj.jpg)](http://www.cavtronics.com "cavtronics")
 
+#BW16-RTLDuiono
+
 ## BW16-RTLDuiono board
 ![<bw16 board >](<https://github.com/pacav69/bw16/blob/main/images/bw16boardfrontandback.png?raw=true>)
 
@@ -23,8 +25,7 @@ And paste the following URL into “Additional Boards Manager URLs” field:
 	https://github.com/ambiot/ambd_arduino/raw/master/Arduino_package/package_realtek.com_amebad_index.json
 	
 
-
-Next, go to “Tools” -> “Board” -> “Boards Manager”:
+Next go to “Tools” -> “Board” -> “Boards Manager”:
 
 The “Boards Manager” requires about 10~20 seconds to refresh all hardware files (if the network is in bad condition, it may take longer). Every time the new hardware is connected, we need to reopen the Board Manager. So, we close the Boards Manager, and then open it again. Find “Realtek Ameba Boards” in the list, click “Install”, then the Arduino IDE starts to download required files for AmebaD.
 

@@ -52,3 +52,13 @@ After connecting accordingly, the USB driver for BW16/RTL8720DN will be automati
 ## PIN Function
 
 ![<PIN Function >](<https://github.com/pacav69/bw16/blob/main/images/bw16pinfunction.png?raw=true >)
+
+
+
+
+## Support
+
+<img src="https://vangogh.teespring.com/v3/image/SugZ-DRGZXUTuSzfrFtaOU3TAUQ/800/800.jpg" width="100px"  height="100px">
+
+[Help support by buying some merchandise](https://cavtronics-3.creator-spring.com/)
+
